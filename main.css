@@ -1,0 +1,51 @@
+html{
+    background-color: beige;
+}
+h1{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+hr{
+    background-color: cornflowerblue;
+    height: 1.5px;
+    width: 90%;
+}
+
+p{
+    margin-left: 5%;
+}
+
+ul{
+    margin-left: 5%;
+}
+
+button:hover{
+    width: 93%;
+}
+
+button:click{
+ outline-style: none; 
+}
+
+button{
+    width: 90%;
+    height: 35px;
+    background-color: lightslategrey;
+    color: white;
+    font-weight: bold;
+    opacity: .9;
+    transition: width .25s;
+    border-radius: 10px; 
+    
+}
+
+#contactInfo{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5%;
+}
+

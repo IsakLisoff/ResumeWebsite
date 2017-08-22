@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Isak Lisoff Resume</title>
+        <meta charset="utf-8">
+        <link href="main.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div id="contactInfo">
+                <aside>
+                    <p> ilisoff@gmail.com <br> 503-983-8143</p>
+                </aside>
+            </div>
+            <h1> Isak Lisoff</h1>
+            <hr>
+            
+        </header>
+        
+        <main>
+            <br> <!-- **************** Education Section ************* !-->
+            <h2> <button onClick="toggleButton(this.value)" value=0> Education </button> </h2>
+            <div id="educationDiv" class="resume" style="display: none;">
+            <p> <b>Chemeketa Community College</b></p>
+            
+            <ul>
+                <li> Bachelor for Computer Information Systems with a certificate in programming</li>
+                <li> Very few classes left before completion</li>
+            </ul>
+            
+            <p> <b> Certificates</b></p>
+            
+            <ul>
+                <li>Oracle Database Deisgn and Programming with SQL</li>
+                <li> Oracle Java Certification of Completion</li>
+            </ul>
+            
+            
+            <br><br><!-- ************* Skills Section ***************** -->
+            </div>
+            
+            <h2> <button onClick="toggleButton(this.value)" value=1> Skills & Technologies </button></h2>
+            <div id="skillsDiv" class="resume" style="display: none;">
+            <p><b>Languages:</b> Java, C++, Visual Basic, SQL, PHP, HTML5</p>
+            <p><b>Platforms:</b> Ubuntu Linux, Windows, MS Visual Studio 2008-2015, Android Studio</p>
+            <p><b>Technologies:</b> CSS3, XML, GIT, PowerShell, PHPmyAdmin, mySQL</p>
+            
+            
+            <br><br><!-- ************* Project Section ***************** -->
+            </div>
+            
+            <h2> <button onClick="toggleButton(this.value)" value=2> Projects </button></h2>
+            <div id="projectDiv" style="display: none;">
+            <p><b>Tool Inventory Database</b></p>
+            
+            <ul>
+                <li> Created and finished an efficient online database to manage records of tools</li>
+                <li> Back end used mySQL and PHPmyAdmin to communicate with front end </li>
+                <li> Front end was created using HTML5, CSS</li>
+                <li> Created weekly milestones to document the needs of the database</li>
+                <li> Presented the finished product and documentation to group of students</li>
+            </ul>
+            
+            <p><b>Battleship</b></p>
+            
+            <ul>
+                <li>Java application that allows the user to play a game of battleship</li>
+                <li>GUI was greated using JavaFX and CSS3</li>
+            </ul>
+            
+            
+            <br><br><!-- ************* Experience Section ***************** -->
+            </div>
+            
+            <h2><button onClick="toggleButton(this.value)" value=3> Experiences </button></h2>
+            <div id="experiencesDiv" style="display: none;">
+            <p><b>Silver Falls School District Technology Department</b></p>
+            
+            <ul>
+                <li>Troubleshooting of computers, software and hardware</li>
+                <li>Commuted and provided friendly customer service in various locations of school district</li>
+                <li>provided written reports of computer issues to leader of department</li>
+            </ul>
+        
+            </div>
+            
+            
+            <script src="droptoggle.js"></script>
+        </main>
+    </body>
+</html>
